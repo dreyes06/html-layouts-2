@@ -1,0 +1,160 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+main {
+  background-color: white;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pic {
+  width: 25%;
+  height: 25%;
+  margin-left: 100px;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta {
+  font-style: italic;
+  color: black;
+  font-weight: 800;
+  font-size: xx-large;
+  align-items: flex-start;
+}
+
+.signprompt {
+  color: #aaa;
+  font-size: medium;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.fl {
+  background-color: #49f;
+  color: white;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doya{
+  width: 300px;
+  background-color: white;
+  border: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.or {
+  color: #aaa;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputs {
+  width: 70px;
+  height: 120px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.policies {
+  color: #aaa;
+  font-size: small;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 5;
+}
+
+#lgn {
+  color: #49f;
+}
+
+.download {
+  background-color: white;
+}
+
+.get {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+}
+
+.apple {
+  width: 100px;
+}
+
+.android {
+  width: 112px;
+}
+
+.footer {
+  width: 100%;
+  height: 15%;
+  
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 12px;
+  width: 60%
+  
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-end;
+}
